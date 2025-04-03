@@ -22,7 +22,7 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pagess
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
